@@ -11,7 +11,7 @@ int min(int a, int b)
     return a < b ? a : b;  
 }  
   
-int carAssembly(int a[][NUM_STATION],  
+int assembly(int a[][NUM_STATION],  
                 int t[][NUM_STATION],  
                 int *e, int *x)  
 {  
@@ -56,7 +56,7 @@ int main()
     int e[] = {10, 12}; 
     int x[] = {18, 7};  
   
-    cout << carAssembly(a, t, e, x);  
+    cout << assembly(a, t, e, x);  
   
     return 0;  
 } 
